@@ -1,8 +1,50 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 .first-container {
     background: rgba(229, 84, 115, 0.10);
+    display: flex;
+
+}
+
+.introduction {
+    padding-left: 240px;
+}
+
+.main-title {
+    display: flex;
+    width: 708px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    padding-top: 197px;
+}
+
+.description {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    gap: 10px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.intro-flower {
+    padding-right: 240px;
+    padding-top: 50px;
 }
