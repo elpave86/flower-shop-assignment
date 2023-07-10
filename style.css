@@ -128,14 +128,14 @@
 }
 
 .third-container {
-display: flex;
-justify-content: space-around;
-border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-width: 1922px;
-height: 620px;
-flex-shrink: 0;
-align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    align-items: center;
 }
 
 .introduction-3 {
@@ -144,22 +144,50 @@ align-items: center;
 
 .main-title-3 {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .description-3 {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-padding-top: 24px;
-padding-bottom: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+    padding-bottom: 32px;
 }
 
 .intro-flower-3 {
     width: 318px;
-height: 420px;
-flex-shrink: 0;
+    height: 420px;
+    flex-shrink: 0;
 }
 
+.fourth-container {}
+
+.instagram {}
+
+.insta-title {
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+padding-top: 128px;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-top: 24px;
+padding-bottom: 48px;
+}
+
+.insta-item {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 240px;
+    padding-right: 240px;
+}
