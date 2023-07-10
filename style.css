@@ -41,7 +41,12 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 
+}
+
+.primaey-text-color {
+    color: #E55473;
 }
 
 .intro-flower {
@@ -199,7 +204,6 @@
     margin: auto;
 }
 
-
 .deal-title {
     color: #272727;
     font-size: 40px;
@@ -235,7 +239,7 @@
     padding: 0 25px;
 }
 
-.fifth-container {
+.footer-container {
     margin-top: 128px;
     text-align: center;
     background: #111010;
@@ -267,8 +271,4 @@
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
-}
-
-.primaey-text-color {
-    color: #E55473;
 }
